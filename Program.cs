@@ -6,24 +6,30 @@ namespace HelloWorld
         static void Main(string[] args)
 
         {
-            int a = 12;
-            int b= 13;
-            int c= 14;
-            Console.WriteLine("Hello World");
-            Console.WriteLine($"The sum of a, b and c is {a+b+c}");
-            if( (a > b) && (a > c))
+
+            int x, y;
+            Console.WriteLine("Enter two Integer");
+            x = int.Parse(Console.ReadLine());
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Operation");
+            Console.WriteLine("1= Addition\n2= Subtraction\n3= Multiplication");
+            Console.WriteLine("operation");
+            Console.WriteLine("Enter your operation ");
+            int op = int.Parse(Console.ReadLine());
+
+            switch (op)
             {
-                Console.WriteLine("a is the highest");
+                case 1:
+                    Console.WriteLine($"The addtion of x and y is {x + y}");
+                    break;
+                case 2: Console.WriteLine($"The subtraction of x from y is {x - y}");
+                    break;
+                case 3: Console.WriteLine($"The muntiplication of  x and y is {x * y}");
+                    break;
+                default: Console.WriteLine(" wrong choice");
+                    break;
             }
-            else if((b > a) && (b > c))
-            {
-                Console.WriteLine("b is the highest");
-            }
-            else
-            {
-                Console.WriteLine("c is the highest");
-             }
-                Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
