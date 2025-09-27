@@ -1,43 +1,87 @@
-﻿using System;
+﻿using learning.Model;
+using System;
+using System.Text.Json;        // for JsonSerializer
+using learning.Model;          // so we can use Student and Subject
+using System.IO;               // for File and Path
+
+using System.Text.Json;
 namespace HelloWorld
 {
     class Program
     {
         static void Main(string[] args)
-
         {
-            Console.WriteLine("Learning Switch case in C sharp ");
-            int x, y;
-            Console.WriteLine("Enter two Integer");
-            x = int.Parse(Console.ReadLine());
-            y = int.Parse(Console.ReadLine());
-            Console.WriteLine("Operation");
-            Console.WriteLine("1 = Addition\n2 = Subtraction\n3 = Multiplication");
-            Console.WriteLine("operation");
-            Console.WriteLine("Enter your operation ");
-            int op = int.Parse(Console.ReadLine());
+            //Loading student from json 
+            string filePath = @"E:\IIC stuff\dot net\learning\Data\student.json";
+            //Console.WriteLine("Looking for file at: " + filePath);
 
-            switch (op)
+
+            // Create a list to hold students
+            List<Student> students = new List<Student>();
+
+            // Try to load existing data
+            if (File.Exists(filePath))
             {
-                case 1:
-                    Console.WriteLine($"The addtion of x and y is {x + y}");
-                    break;
-                case 2: Console.WriteLine($"The subtraction of x from y is {x - y}");
-                    break;
-                case 3: Console.WriteLine($"The muntiplication of  x and y is {x * y}");
-                    break;
-                default: Console.WriteLine(" wrong choice");
-                    break;
+                string json = File.ReadAllText(filePath);
+                if (!string.IsNullOrWhiteSpace(json))
+                {
+                    students = JsonSerializer.Deserialize<List<Student>>(json) ?? new List<Student>();
+                    Console.WriteLine($"Loaded {students.Count} students from file.");
+                }
+                else
+                {
+                    Console.WriteLine("students.json is empty. Starting with an empty list.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No students.json found. Starting with an empty list.");
             }
 
-            Console.WriteLine("\nLearning for loop in C programming ");
 
-            int a;
-            for (a=0; a<10; a++)
+
+            bool running = true;
+            while(running)
             {
-                Console.WriteLine(a);
-            }
+                Console.WriteLine(
+                "\n===== Student Grade Manager =====\n" +
+                "1. Add New Student\n" +
+                "2. View All Students\n" +
+                "3. Add Subject & Marks\n" +
+                "4. Calculate Percentage\n" +
+                "5. Exit\n"
 
+                );
+
+                Console.WriteLine("\n\nEnter your Choice:  ");
+                int cp = int.Parse(Console.ReadLine());
+
+                switch (cp)
+                {
+                    case 1:
+                        Console.WriteLine(" The new student will added here");
+                        break;
+                    case 2:
+                        Console.WriteLine("All student are shown here");
+                        break;
+                    case 3:
+                        Console.WriteLine(" New subject will their mark are added here");
+                        break;
+                    case 4:
+                        Console.WriteLine(" Percentage is calculated here");
+                        break;
+                    case 5:
+                        Console.WriteLine("The Programing is closeing .......");
+                        running = false;
+                        break;
+                    default:
+                        Console.WriteLine(" wrong choice");
+                        break;
+                }
+
+
+
+            }
 
         }
     }

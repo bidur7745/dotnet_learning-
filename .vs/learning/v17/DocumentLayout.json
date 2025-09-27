@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\switchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:switchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\data\\student.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:data\\student.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "switchcase.cs",
-              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\switchcase.cs",
-              "RelativeDocumentMoniker": "switchcase.cs",
-              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\switchcase.cs",
-              "RelativeToolTip": "switchcase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "student.json",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\Data\\student.json",
+              "RelativeDocumentMoniker": "Data\\student.json",
+              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\Data\\student.json",
+              "RelativeToolTip": "Data\\student.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T17:17:21.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Model\\Student.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\Model\\Student.cs",
+              "RelativeToolTip": "Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:11:04.214Z",
+              "WhenOpened": "2025-09-27T16:44:14.131Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +62,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\IIC stuff\\dot net\\learning\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwD0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T16:27:55.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\Model\\Subject.cs",
+              "RelativeDocumentMoniker": "Model\\Subject.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\Model\\Subject.cs",
+              "RelativeToolTip": "Model\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:48:39.734Z",
               "EditorCaption": ""
             }
           ]

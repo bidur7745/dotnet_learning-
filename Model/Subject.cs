@@ -8,5 +8,8 @@ namespace learning.Model
 {
     internal class Subject
     {
+        public string name {  get; set; }
+        public int FullMarks {  get; set; }
+        public int ObtainedMarks {  get; set; }
     }
 }

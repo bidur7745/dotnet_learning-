@@ -8,5 +8,8 @@ namespace learning.Model
 {
     internal class Student
     {
+        public string Id {  get; set; }
+        public string Name { get; set; }
+        public List<Subject> Courses {  get; set; } = new List<Subject>();
     }
 }

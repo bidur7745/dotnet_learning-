@@ -1,0 +1,33 @@
+﻿🚀 Next steps (no code — just plan)
+
+Create a List<Student> in Main
+
+This will hold all students while the program runs.
+
+Implement Case 1 – Add New Student
+
+Ask user for ID and Name.
+
+Create a new Student object and add it to the list.
+
+Print confirmation.
+
+Implement Case 2 – View All Students
+
+Loop through the list and display each student’s ID, Name, and number of courses.
+
+Implement Case 3 – Add Subject & Marks
+
+Ask user which student (search by ID).
+
+Ask for Subject name, Full marks, Obtained marks.
+
+Add that Subject to the student’s Courses list.
+
+Implement Case 4 – Calculate Percentage
+
+Pick a student (by ID).
+
+Sum their ObtainedMarks and FullMarks to show overall percentage.
+
+(Optional for later) Add save/load to JSON file so data stays when you restart the app.
