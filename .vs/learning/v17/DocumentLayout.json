@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\IIC stuff\\dot net\\learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|e:\\iic stuff\\dot net\\learning\\switchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C76C77-521B-47DF-A9AF-69D54750D11C}|learning.csproj|solutionrelative:switchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "switchcase.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\switchcase.cs",
+              "RelativeDocumentMoniker": "switchcase.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\switchcase.cs",
+              "RelativeToolTip": "switchcase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:11:04.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\learning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\learning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T16:27:55.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
