@@ -59,7 +59,19 @@ namespace HelloWorld
                 switch (cp)
                 {
                     case 1:
-                        Console.WriteLine(" The new student will added here");
+                        Console.WriteLine(" ===== Enter the student information =====\n");
+                        Console.WriteLine(" Enter the student ID");
+                         String Id = Console.ReadLine();
+                        Console.WriteLine("Enter the name of the student");
+                        String Name = Console.ReadLine();
+                        
+                        Student student = new Student();
+                        student.Id = Id;
+                        student.Name = Name;
+                        students.Add(student);
+                        Console.WriteLine("Student added sucessfully!!!!!!");
+                        
+                        
                         break;
                     case 2:
                         Console.WriteLine("All student are shown here");
