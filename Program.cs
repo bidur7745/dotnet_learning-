@@ -152,7 +152,43 @@ namespace HelloWorld
 
                         break;
                     case 4:
-                        Console.WriteLine(" Percentage is calculated here");
+                        Console.WriteLine(" Enter the Id of the student you want to calculate percentage: ");
+                        String enteredId = Console.ReadLine();
+
+
+                        bool check = false;
+                        foreach (var s in students)
+                        {
+                            if (s.Id == enteredId)
+                            {
+                                check = true;
+
+                                if (s.Subjects.Count == 0)
+                                {
+                                    Console.WriteLine("No subjects to calculate percentage");
+                                }
+                                else
+                                {
+                                    int totalFull = 0;
+                                    int totalObtained = 0;
+
+                                    foreach (var sub in s.Subjects)
+                                    {
+                                        totalFull += sub.FullMarks;
+                                        totalObtained += sub.ObtainedMarks;
+                                    }
+
+                                    double percentage = (double)totalObtained / totalFull * 100;
+                                    Console.WriteLine($"Total: {totalObtained}/{totalFull}");
+                                    Console.WriteLine($"Percentage: {percentage:F2}%");
+                                }
+                            }
+                        }
+                        if (!check)
+                        {
+                            Console.WriteLine($"The Student with id {enteredId} is not available");
+                        }
+
                         break;
                     case 5:
                         Console.WriteLine("The Programing is closeing .......");
