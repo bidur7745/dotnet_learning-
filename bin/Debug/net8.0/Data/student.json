@@ -1,54 +1,54 @@
 [
   {
-    "id": "S001",
-    "name": "Bidur Siwakoti",
-    "courses": [
+    "Id": "S001",
+    "Name": "BIDur Siwakoti",
+    "Subjects": [
       {
-        "name": "Mathematics",
-        "fullMarks": 100,
-        "obtainedMarks": 85
+        "Name": "Mathematics",
+        "FullMarks": 100,
+        "ObtainedMarks": 85
       },
       {
-        "name": "Physics",
-        "fullMarks": 100,
-        "obtainedMarks": 92
+        "Name": "Physics",
+        "FullMarks": 100,
+        "ObtainedMarks": 92
       }
     ]
   },
   {
-    "id": "S002",
-    "name": "Sita Thapa",
-    "courses": [
+    "Id": "S002",
+    "Name": "Sita Thapa",
+    "Subjects": [
       {
-        "name": "English",
-        "fullMarks": 100,
-        "obtainedMarks": 88
+        "Name": "English",
+        "FullMarks": 100,
+        "ObtainedMarks": 88
       },
       {
-        "name": "Health Education",
-        "fullMarks": 100,
-        "obtainedMarks": 79
+        "Name": "Health Education",
+        "FullMarks": 100,
+        "ObtainedMarks": 79
       }
     ]
   },
   {
-    "id": "S003",
-    "name": "Ram Shrestha",
-    "courses": [
+    "Id": "S003",
+    "Name": "Ram Shrestha",
+    "Subjects": [
       {
-        "name": "Mathematics",
-        "fullMarks": 100,
-        "obtainedMarks": 60
+        "Name": "Mathematics",
+        "FullMarks": 100,
+        "ObtainedMarks": 60
       },
       {
-        "name": "Nepali",
-        "fullMarks": 100,
-        "obtainedMarks": 72
+        "Name": "Nepali",
+        "FullMarks": 100,
+        "ObtainedMarks": 72
       },
       {
-        "name": "Social Studies",
-        "fullMarks": 100,
-        "obtainedMarks": 80
+        "Name": "Social Studies",
+        "FullMarks": 100,
+        "ObtainedMarks": 80
       }
     ]
   }

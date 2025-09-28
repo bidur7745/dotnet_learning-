@@ -25,7 +25,14 @@ namespace HelloWorld
                 string json = File.ReadAllText(filePath);
                 if (!string.IsNullOrWhiteSpace(json))
                 {
-                    students = JsonSerializer.Deserialize<List<Student>>(json) ?? new List<Student>();
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    students = JsonSerializer.Deserialize<List<Student>>(json, options) ?? new List<Student>();
+
+
+
                     Console.WriteLine($"Loaded {students.Count} students from file.");
                 }
                 else
@@ -74,10 +81,75 @@ namespace HelloWorld
                         
                         break;
                     case 2:
-                        Console.WriteLine("All student are shown here");
+                        Console.WriteLine("\n===== All Students =====\n");
+
+                        if (students.Count == 0)
+                        {
+                            Console.WriteLine("No students available.");
+                            break;
+                        }
+
+                        foreach (var s in students)
+                        {
+                            Console.WriteLine($"ID: {s.Id}   Name: {s.Name}");
+
+                            if (s.Subjects.Count == 0)
+                            {
+                                Console.WriteLine("   (no courses yet)\n");
+                            }
+                            else
+                            {
+                                // Table header
+                                Console.WriteLine("   -----------------------------------------------------------");
+                                Console.WriteLine($"   {"Subject",-25} {"Full Marks",12} {"Obtained Marks",16}");
+                                Console.WriteLine("   -----------------------------------------------------------");
+
+                                // Each course
+                                foreach (var c in s.Subjects)
+                                {
+                                    Console.WriteLine($"   {c.Name,-25} {c.FullMarks,12} {c.ObtainedMarks,16}");
+                                }
+
+                                Console.WriteLine(); // blank line after each student
+                            }
+                        }
+
                         break;
                     case 3:
-                        Console.WriteLine(" New subject will their mark are added here");
+                        Console.WriteLine(" Enter the Id of the student you want to add courses: ");
+                        String InputId = Console.ReadLine();
+
+                        bool found = false;
+                        foreach (var s in students)
+                        {
+                            if (s.Id == InputId)
+                            {
+                                found = true;
+                                Console.WriteLine(" Enter the name of Courses/subject: ");
+                                String SubjectName = Console.ReadLine() ;
+                                Console.WriteLine(" Enter the full mark of that subject: ");
+                                int FullMarks = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Enter the obtained mark in that subject: ");
+                                int ObtainedMarks = int.Parse(Console.ReadLine());
+
+                                Subject subject = new Subject();
+                                subject.Name = SubjectName;
+                                subject.FullMarks = FullMarks;
+                                subject.ObtainedMarks = ObtainedMarks;
+
+                                s.Subjects.Add(subject);
+                                Console.WriteLine("Subject added successfully!");
+                                break;
+
+
+                            }
+                        }
+
+                        if (!found)
+                        {
+                            Console.WriteLine($"Student with ID {InputId} is not available");
+                        }
+
                         break;
                     case 4:
                         Console.WriteLine(" Percentage is calculated here");
