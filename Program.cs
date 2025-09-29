@@ -77,6 +77,8 @@ namespace HelloWorld
                         student.Name = Name;
                         students.Add(student);
                         Console.WriteLine("Student added sucessfully!!!!!!");
+                        Console.WriteLine($"The details of the student is:\n");
+                        Console.WriteLine($"Name:{student.Name} ID: {student.Id}");
                         
                         
                         break;
@@ -110,7 +112,7 @@ namespace HelloWorld
                                     Console.WriteLine($"   {c.Name,-25} {c.FullMarks,12} {c.ObtainedMarks,16}");
                                 }
 
-                                Console.WriteLine(); // blank line after each student
+                                Console.WriteLine(); 
                             }
                         }
 
@@ -138,7 +140,18 @@ namespace HelloWorld
                                 subject.ObtainedMarks = ObtainedMarks;
 
                                 s.Subjects.Add(subject);
-                                Console.WriteLine("Subject added successfully!");
+                                Console.WriteLine("Subject added successfully!\n");
+                                Console.WriteLine($"Updated record for student: {s.Id} - {s.Name}");
+                                Console.WriteLine("-----------------------------------------------------------");
+                                Console.WriteLine($"{"Subject",-25} {"Full Marks",12} {"Obtained Marks",16}");
+                                Console.WriteLine("-----------------------------------------------------------");
+
+                                foreach (var c in s.Subjects)
+                                {
+                                    Console.WriteLine($"{c.Name,-25} {c.FullMarks,12} {c.ObtainedMarks,16}");
+                                }
+                                Console.WriteLine(); 
+
                                 break;
 
 
@@ -191,8 +204,19 @@ namespace HelloWorld
 
                         break;
                     case 5:
-                        Console.WriteLine("The Programing is closeing .......");
-                        running = false;
+                        Console.WriteLine("Saving data and closing the program...");
+
+                        // turn the students list into JSON (pretty printed)
+                        string jsonToSave = JsonSerializer.Serialize(
+                            students,
+                            new JsonSerializerOptions { WriteIndented = true }
+                        );
+
+                        // overwrite the same file you loaded from
+                        File.WriteAllText(filePath, jsonToSave);
+
+                        Console.WriteLine("All changes saved successfully.");
+                        running = false;    // exit the loop/program
                         break;
                     default:
                         Console.WriteLine(" wrong choice");
