@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\IIC stuff\\dot net\\BookRental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|e:\\iic stuff\\dot net\\bookrental\\model\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|solutionrelative:model\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|e:\\iic stuff\\dot net\\bookrental\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|solutionrelative:model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|e:\\iic stuff\\dot net\\bookrental\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|solutionrelative:model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|e:\\iic stuff\\dot net\\bookrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC384B6-E3B1-4E7A-AB56-7FC79898E83F}|BookRental.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Rental.cs",
+              "RelativeDocumentMoniker": "Model\\Rental.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Rental.cs",
+              "RelativeToolTip": "Model\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:51:24.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Member.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Member.cs",
+              "RelativeDocumentMoniker": "Model\\Member.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Member.cs",
+              "RelativeToolTip": "Model\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:51:09.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Books.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Books.cs",
+              "RelativeDocumentMoniker": "Model\\Books.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\BookRental\\Model\\Books.cs",
+              "RelativeToolTip": "Model\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:50:43.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\IIC stuff\\dot net\\BookRental\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\IIC stuff\\dot net\\BookRental\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:47:23.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
