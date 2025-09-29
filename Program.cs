@@ -76,7 +76,7 @@ namespace HelloWorld
                         student.Id = Id;
                         student.Name = Name;
                         students.Add(student);
-                        Console.WriteLine("Student added sucessfully!!!!!!");
+                        Console.WriteLine("Student added sucessfully!!!!!!\n");
                         Console.WriteLine($"The details of the student is:\n");
                         Console.WriteLine($"Name:{student.Name} ID: {student.Id}");
                         

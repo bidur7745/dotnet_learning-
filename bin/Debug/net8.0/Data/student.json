@@ -51,5 +51,21 @@
         "ObtainedMarks": 80
       }
     ]
+  },
+  {
+    "Id": "12",
+    "Name": "Abishek Siwakoti",
+    "Subjects": [
+      {
+        "Name": "Math",
+        "FullMarks": 100,
+        "ObtainedMarks": 85
+      },
+      {
+        "Name": "Nepali",
+        "FullMarks": 100,
+        "ObtainedMarks": 76
+      }
+    ]
   }
 ]
