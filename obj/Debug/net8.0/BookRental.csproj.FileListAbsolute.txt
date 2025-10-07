@@ -135,3 +135,4 @@ E:\IIC stuff\dot net\BookRental\obj\Debug\net8.0\refint\BookRental.dll
 E:\IIC stuff\dot net\BookRental\obj\Debug\net8.0\BookRental.pdb
 E:\IIC stuff\dot net\BookRental\obj\Debug\net8.0\BookRental.genruntimeconfig.cache
 E:\IIC stuff\dot net\BookRental\obj\Debug\net8.0\ref\BookRental.dll
+E:\IIC stuff\dot net\BookRental\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
